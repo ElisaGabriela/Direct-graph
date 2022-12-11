@@ -177,7 +177,7 @@ ax2.set_ylabel("Probability")
 plt.show()
 ```
 
-![Análise PDF](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/PDF_2.png)
+![probability_density_function](https://user-images.githubusercontent.com/62516296/206930839-7fe80d39-ea1a-4633-9631-f35f77e02ca4.png)
 
 A análise CDF (Função de densidade acumulativa) foi realizada seguindo os seguintes passos: 
 
@@ -201,7 +201,8 @@ ax2.set_ylabel("Probability")
 
 plt.show()
 ``` 
-![Análise CDF](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/CDF_1.png)
+
+![cumulative_density_function](https://user-images.githubusercontent.com/62516296/206930859-77615230-3d9c-4863-90a2-bea7ee294867.png)
 
 Após essas análises, foi feito um filtro para melhorar a visualização dos resultados:
 
