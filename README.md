@@ -1,7 +1,9 @@
 # Direct Graph: Building a network with wikipedia
 
-**Elisa Gabriela Machado de Lucena**
-**Vinicius Soares Fernandes**
+Grupo:
+
+* **Elisa Gabriela Machado de Lucena**
+* **Vinicius Soares Fernandes**
 
 Este trabalho tem como objetivo a análise de um rede obtida através da plataforma wikipedia. Para a formação da rede, foi escolhido o tema [termoeconomia](https://en.wikipedia.org/wiki/Thermoeconomics). O projeto foi realizado na linguagem Python com o auxilio da plataforma de desenvolvimento Google Colaboratory. Além disso, foram utilizadas bibliotecas Python como networkx, matplotlib, seaborn. 
 
