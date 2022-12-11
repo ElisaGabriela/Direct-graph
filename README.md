@@ -1,5 +1,8 @@
 # Direct Graph: Building a network with wikipedia
 
+**Elisa Gabriela Machado de Lucena**
+**Vinicius Soares Fernandes**
+
 Este trabalho tem como objetivo a análise de um rede obtida através da plataforma wikipedia. Para a formação da rede, foi escolhido o tema [termoeconomia](https://en.wikipedia.org/wiki/Thermoeconomics). O projeto foi realizado na linguagem Python com o auxilio da plataforma de desenvolvimento Google Colaboratory. Além disso, foram utilizadas bibliotecas Python como networkx, matplotlib, seaborn. 
 
 Para tratar e manipular os dados da rede escolhida, foi feito uma pipeline de dados, que consiste em uma série de etapas de processamento de dados. Os pipelines de dados consistem em três elementos principais: uma fonte, que neste caso será nossa semente (seed) e nossa lista de paradas - apresentados na sequência) uma ou mais etapas de processamento e um destino, que será nosso arquivo graphml e as análises da rede.
