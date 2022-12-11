@@ -1,4 +1,4 @@
-# Direct Graph: Building a network with wikipedia
+# Directed Graph: Building a network with wikipedia
 
 Grupo:
 
@@ -389,6 +389,19 @@ plt.show()
 ```
 ![Análise final das métricas](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/analise_1.png)
 
-A análise seguinte foi a core decomposition, que resultou na seguinte representação:
+A análise seguinte foi a 50-core decomposition, que resultou na representação:
 
 ![Core decomposition](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/50_core_decomposition.png)
+
+## Pipeline
+![Pipeline_Representation](https://user-images.githubusercontent.com/62516296/206930238-5fb56696-afa6-43c9-b0b9-94175884a86e.png)
+
+A pipeline foi usada para obter os dados via web scraping, em seguida, processá-los e obter algumas outras análises tais como:
+
+```
+11-12-2022 19:25:53 [INFO] Exploring core composition
+11-12-2022 19:25:53 [INFO] K-cores: {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 63, 64, 66, 69, 70, 83, 85, 86, 94, 97, 101}
+11-12-2022 19:25:53 [INFO] K-cores length: 66
+11-12-2022 19:25:53 [INFO] K-shell: ['Birmingham School (Economics)', 'Feminist Economics', 'Thermoeconomics', 'New Neoclassical Synthesis', 'Social Credit', 'Marxism And Keynesianism', 'Rational Expectations', 'Evolutionary Economics', 'Monetarism', 'Structuralist Economics', 'School Of Salamanca', 'Socialist Economics', 'New Institutional Economics', 'Real Business-Cycle Theory', 'Manchester Liberalism', 'Disequilibrium Macroeconomics', 'Carnegie School', 'American School (Economics)', 'Modern Monetary Theory', 'Behavioral Economics', 'Economic System', 'Neoclassical Synthesis', 'Malthusianism', 'Austrian School', 'Neo-Keynesian Economics', 'Lausanne School', 'Constitutional Economics', 'Monetary Circuit Theory', 'Heterodox Economics', 'Mercantilism', 'Schools Of Economic Thought', 'Supply-Side Economics', 'Neo-Malthusianism', 'Kraków School Of Economics', 'Distributism', 'Capability Approach', 'Physiocracy', 'New-Keynesian Economics', 'New Classical Macroeconomics', 'Marginalism', 'Ancient Economic Thought', 'Regulation School', 'French Liberal School', 'Historical School Of Economics', 'Mutualism (Economic Theory)', 'Chartalism', 'Cameralism', 'Public Choice', 'Ricardian Economics', 'Anarchist Economics', 'History Of Economic Thought', 'Saltwater And Freshwater Economics', 'Institutional Economics', 'Neo-Ricardianism', 'Virginia School Of Political Economy', 'Neo-Marxian Economics', 'Freiburg School', 'Buddhist Economics', 'Keynesian Economics', 'Marxian Economics', 'Neoclassical Economics', 'Post-Autistic Economics', 'English Historical School Of Economics', 'Chicago School Of Economics']
+11-12-2022 19:25:53 [INFO] K-shell length: 64
+```
