@@ -122,7 +122,7 @@ A próxima métrica analisada foi a **Closeness Centrality**. Foi feito uma repr
 
 ![Nós com closeness centrality maior do que 0,5](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/ClosenessGreaterThanHalf.png)
 
-Uma outra métrica analisada foi a **Betweenns Centrality**. Para isso, foram representados os nós com Betweenness centrality maior que 4156. Essa métrica verifica a posição do nó em seu menor caminho.
+Uma outra métrica analisada foi a **Betweenness Centrality**. Para isso, foram representados os nós com Betweenness centrality maior que 4156. Essa métrica verifica a posição do nó em seu menor caminho.
 
 ![Nós com Betweenness centrality maior que 4156](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/BetweennessGreaterThan4156.png)
 
