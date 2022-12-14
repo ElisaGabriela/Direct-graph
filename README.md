@@ -15,6 +15,9 @@ A partir dessa página da Wikipedia, pode-se gerar uma rede, cuja representaçã
 
 [Link para acessar a rede em produção](https://elisagabriela.github.io/Direct-graph/network)
 
+A coloração dos nós na visualização abaixo foi feita baseando-se na métrica de excentricidade dos nós.
+[Link para acessar a visualização com a métrica criada para colorir os nós](https://viniciusfer01.github.io/comunity_color_test/network/)
+
 ```
   SEED = "Thermoeconomics".title()
   STOPS = ("International Standard Serial Number",
