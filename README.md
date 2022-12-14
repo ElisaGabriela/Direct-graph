@@ -13,6 +13,8 @@ A partir dessa página da Wikipedia, pode-se gerar uma rede, cuja representaçã
 
 ![Representação visual da rede](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/representa%C3%A7%C3%A3o_visual_da_rede.jfif)
 
+![Link para acessar a rede em produção](https://elisagabriela.github.io/Direct-graph/network)
+
 ```
   SEED = "Thermoeconomics".title()
   STOPS = ("International Standard Serial Number",
