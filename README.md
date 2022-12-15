@@ -13,11 +13,6 @@ A partir dessa página da Wikipedia, pode-se gerar uma rede, cuja representaçã
 
 ![Representação visual da rede](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/representa%C3%A7%C3%A3o_visual_da_rede.jfif)
 
-[Link para acessar a rede em produção](https://elisagabriela.github.io/Direct-graph/network)
-
-A coloração dos nós na visualização abaixo foi feita baseando-se na métrica de excentricidade dos nós.
-[Link para acessar a visualização com a métrica criada para colorir os nós](https://viniciusfer01.github.io/comunity_color_test/network/)
-
 ```
   SEED = "Thermoeconomics".title()
   STOPS = ("International Standard Serial Number",
@@ -411,3 +406,22 @@ A pipeline foi usada para obter os dados via web scraping, em seguida, processá
 11-12-2022 19:25:53 [INFO] K-shell: ['Birmingham School (Economics)', 'Feminist Economics', 'Thermoeconomics', 'New Neoclassical Synthesis', 'Social Credit', 'Marxism And Keynesianism', 'Rational Expectations', 'Evolutionary Economics', 'Monetarism', 'Structuralist Economics', 'School Of Salamanca', 'Socialist Economics', 'New Institutional Economics', 'Real Business-Cycle Theory', 'Manchester Liberalism', 'Disequilibrium Macroeconomics', 'Carnegie School', 'American School (Economics)', 'Modern Monetary Theory', 'Behavioral Economics', 'Economic System', 'Neoclassical Synthesis', 'Malthusianism', 'Austrian School', 'Neo-Keynesian Economics', 'Lausanne School', 'Constitutional Economics', 'Monetary Circuit Theory', 'Heterodox Economics', 'Mercantilism', 'Schools Of Economic Thought', 'Supply-Side Economics', 'Neo-Malthusianism', 'Kraków School Of Economics', 'Distributism', 'Capability Approach', 'Physiocracy', 'New-Keynesian Economics', 'New Classical Macroeconomics', 'Marginalism', 'Ancient Economic Thought', 'Regulation School', 'French Liberal School', 'Historical School Of Economics', 'Mutualism (Economic Theory)', 'Chartalism', 'Cameralism', 'Public Choice', 'Ricardian Economics', 'Anarchist Economics', 'History Of Economic Thought', 'Saltwater And Freshwater Economics', 'Institutional Economics', 'Neo-Ricardianism', 'Virginia School Of Political Economy', 'Neo-Marxian Economics', 'Freiburg School', 'Buddhist Economics', 'Keynesian Economics', 'Marxian Economics', 'Neoclassical Economics', 'Post-Autistic Economics', 'English Historical School Of Economics', 'Chicago School Of Economics']
 11-12-2022 19:25:53 [INFO] K-shell length: 64
 ```
+
+***
+
+[Link para acessar a rede em produção](https://elisagabriela.github.io/Direct-graph/network)
+
+Para a análise da rede, foi criada uma representação no software Gephi baseado na métrica de exentricidade dos nós. A representação pode ser vista abaixo:
+[Link para acessar a visualização com a métrica criada para colorir os nós](https://viniciusfer01.github.io/comunity_color_test/network/)
+
+![Legenda da representação](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/legenda_exentricidade)
+
+A imagem acima mostra como os nós foram coloridos de acordo com a métrica da **exentricidade** , que é a maior distância de um nó até todos os outros nós de uma rede. Como podemos visualizar na imagem, a maior parte dos nós (98,31%) tem exentricidade igual a zero, o que faz sentido na nossa rede, pois os nós que têm uma exentricidade baixa, tem muitas arestas ligadas a outros nós.
+
+Em seguida, utilizamos o software Gephisto para gerar a visualização abaixo.
+
+![Visualização do Gephisto](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/GephistoNetworkMap_V2.png)
+
+Na figura é possível observar que a métrica do Eigenvector Centrality não apresenta uma disparidade muito grande em relação aos nós da rede analisada. Ao contrário dos resultados anteriormente obtidos que levavam em consideração o grau dos nós, por exemplo.
+
+
