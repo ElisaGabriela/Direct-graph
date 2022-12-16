@@ -409,6 +409,8 @@ A pipeline foi usada para obter os dados via web scraping, em seguida, processá
 
 ***
 
+## Explorando visualizações de análises de rede com o Gephi e plugins
+
 [Link para acessar a rede em produção](https://elisagabriela.github.io/Direct-graph/network)
 
 Para a análise da rede, foi criada uma representação no software Gephi baseado na métrica de exentricidade dos nós. A representação pode ser vista abaixo:
@@ -416,12 +418,15 @@ Para a análise da rede, foi criada uma representação no software Gephi basead
 
 ![Legenda da representação](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/legenda_exentricidade)
 
-A imagem acima mostra como os nós foram coloridos de acordo com a métrica da **exentricidade** , que é a maior distância de um nó até todos os outros nós de uma rede. Como podemos visualizar na imagem, a maior parte dos nós (98,31%) tem exentricidade igual a zero, o que faz sentido na nossa rede, pois os nós que têm uma exentricidade baixa, tem muitas arestas ligadas a outros nós.
+A imagem acima mostra como os nós foram coloridos de acordo com a métrica da **excentricidade** , que é a maior distância de um nó até todos os outros nós de uma rede. Como podemos visualizar na imagem, a maior parte dos nós (98,31%) tem excentricidade igual a zero, o que faz sentido na nossa rede, pois a maioria dos nós está localizada no centro da rede, onde a excentricidade tende a ser menor.
 
-Em seguida, utilizamos o software Gephisto para gerar a visualização abaixo.
+Após isso, fizemos uma análise exploratória da rede, na qual detalhamos 3 métricas.
+[Link para acessar a análise](https://www.loom.com/share/1d881e8abd9747d186a06a23f0e9c911) 
+
+Em seguida, utilizamos o software Gephisto para gerar a visualização abaixo:
 
 ![Visualização do Gephisto](https://github.com/ElisaGabriela/Direct-graph/blob/main/Imagens/GephistoNetworkMap_V2.png)
 
-Na figura é possível observar que a métrica do Eigenvector Centrality não apresenta uma disparidade muito grande em relação aos nós da rede analisada. Ao contrário dos resultados anteriormente obtidos que levavam em consideração o grau dos nós, por exemplo.
+Na figura é possível observar que o tamanho dos nós são muito parecidos. Isso ocorre pois a métrica do Eigenvector Centrality foi usada para definir o tamanho dos nós. Outro ponto interessante de ressaltar é que 73% dos nós estão na distância Delta representada na figura.
 
 
